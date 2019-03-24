@@ -28,7 +28,7 @@ while True:
         print ("File not found, check spelling or directory")
 
 #Ask user for the name of the merged output file name 
-output_filename = str(input("Enter the name of the .pdf merged file: "))
+output_filename = str(input("Enter the name of the .pdf output file: "))
 #Create the merged file with the given file name; will go into whichever directory script is run from, unless directory is specified
 combine.write("{}.pdf".format(output_filename))
 
